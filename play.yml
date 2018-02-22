@@ -1,0 +1,7 @@
+---
+- hosts: docker_test
+  become: true
+  become_user: root
+
+  roles:
+    - Install_Docker

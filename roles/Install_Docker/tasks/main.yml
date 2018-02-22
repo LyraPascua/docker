@@ -7,6 +7,4 @@
   become: yes
 
 - name: Start Docker
-  yum:
-    name: docker
-    state: started
+    service: name=docker state=started enabled=yes

@@ -9,5 +9,4 @@
 - name: Start Docker
   yum:
     name: docker
-     state: started
-     enabled: True
+    state: started

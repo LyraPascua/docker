@@ -1,0 +1,7 @@
+---
+
+- name: Install Docker
+  yum:
+    name: docker
+    state: present
+  become: yes
